@@ -1,0 +1,6 @@
+*.sql
+*.sparql
+*.lb
+*.cypher
+*.dot
+*.png
