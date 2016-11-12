@@ -1,0 +1,84 @@
+<generator>
+	<graph>
+		<nodes>100</nodes>
+	</graph>
+
+	<predicates>
+		<size>11</size>
+		<alias symbol="0">routes</alias>
+		<proportion symbol="0"></proportion>
+
+		<alias symbol="1">regions</alias>
+		<proportion symbol="1"></proportion>
+
+		<alias symbol="2">sensors</alias>
+		<proportion symbol="2"></proportion>
+
+		<alias symbol="3">requires</alias>
+		<proportion symbol="3"></proportion>
+
+		<alias symbol="4">follows</alias>
+		<proportion symbol="4"></proportion>
+
+		<alias symbol="5">target</alias>
+		<proportion symbol="5"></proportion>
+
+		<alias symbol="6">entry</alias>
+		<proportion symbol="6"></proportion>
+
+		<alias symbol="7">exit</alias>
+		<proportion symbol="7"></proportion>
+
+		<alias symbol="8">monitoredBy</alias>
+		<proportion symbol="8"></proportion>
+
+		<alias symbol="9">elements</alias>
+		<proportion symbol="9"></proportion>
+
+		<alias symbol="10">connectsTo</alias>
+		<proportion symbol="10"></proportion>
+	</predicates>
+
+	<types>
+		<size>7</size>
+		<alias type="0">RailwayContainer</alias>
+		<proportion type="0"></proportion>
+
+		<alias type="1">Route</alias>
+		<proportion type="1"></proportion>
+
+		<alias type="2">Sensor</alias>
+		<proportion type="2"></proportion>
+
+		<alias type="3">Region</alias>
+		<proportion type="3"></proportion>
+
+		<alias type="4">SwitchPosition</alias>
+		<proportion type="4"></proportion>
+
+		<alias type="5">Switch</alias>
+		<proportion type="5"></proportion>
+
+		<alias type="6">Segment</alias>
+		<proportion type="6"></proportion>
+
+		<alias type="7">Semaphore</alias>
+		<proportion type="7"></proportion>
+	</types>
+
+	<schema>
+		<source type="0"> <!-- AccountHolder -->
+			<target type="0" symbol="0" multiplicity="*"> <!-- HAS_ADDRESS -->
+				<indistribution type="gaussian">
+					<mu>3</mu>
+					<sigma>1</sigma>
+				</indistribution>
+				<outdistribution type="zipfian">
+					<n>100</n>
+					<alpha>2.5</alpha>
+				</outdistribution>
+			</target>
+		</source>
+	</schema>
+
+</generator>
