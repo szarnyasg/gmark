@@ -67,8 +67,8 @@
 	</types>
 
 	<schema>
-		<source type="0"> <!-- AccountHolder -->
-			<target type="0" symbol="0" multiplicity="*"> <!-- HAS_ADDRESS -->
+		<source type="0"> <!-- RailwayContainer -->
+			<target type="0" symbol="0" multiplicity="*"> <!-- Route -->
 				<indistribution type="gaussian">
 					<mu>3</mu>
 					<sigma>1</sigma>

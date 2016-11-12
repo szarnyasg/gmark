@@ -4,14 +4,10 @@
 	</graph>
 
 	<predicates>
-		<size>1</size>
-		<!--
 		<size>6</size>
-		-->
 		<alias symbol="0">HAS_ADDRESS</alias>
 		<proportion symbol="0">100</proportion>
 
-		<!--
 		<alias symbol="1">HAS_BANKACCOUNT</alias>
 		<proportion symbol="1"></proportion>
 
@@ -26,7 +22,6 @@
 
 		<alias symbol="5">HAS_UNSECUREDLOAN</alias>
 		<proportion symbol="5"></proportion>
-		-->
 	</predicates>
 
 	<types>

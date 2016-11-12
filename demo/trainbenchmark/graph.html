@@ -7,13 +7,13 @@ google.charts.setOnLoadCallback(drawChart);
 function drawChart() {
 var data = google.visualization.arrayToDataTable([
 ['Node type', 'Number of nodes'], 
-['RailwayContainer', 10],
-['Route', 15],
-['Sensor', 11],
-['Region', 8],
-['SwitchPosition', 15],
-['Switch', 11],
-['Segment', 30],
+['RailwayContainer', 18],
+['Route', 13],
+['Sensor', 15],
+['Region', 15],
+['SwitchPosition', 13],
+['Switch', 9],
+['Segment', 17],
 ]);
 var options = {
 vAxis: { logScale: true, baseline: 1 },
@@ -23,13 +23,13 @@ var chart = new google.visualization.ColumnChart(document.getElementById('hist11
 chart.draw(data, options);
 var data = google.visualization.arrayToDataTable([
 ['Node type', 'Number of nodes'], 
-['RailwayContainer', 10],
-['Route', 15],
-['Sensor', 11],
-['Region', 8],
-['SwitchPosition', 15],
-['Switch', 11],
-['Segment', 30],
+['RailwayContainer', 18],
+['Route', 13],
+['Sensor', 15],
+['Region', 15],
+['SwitchPosition', 13],
+['Switch', 9],
+['Segment', 17],
 ]);
 var options = {
 vAxis: { logScale: true, baseline: 1 },
@@ -59,7 +59,7 @@ var chart = new google.visualization.ColumnChart(document.getElementById('hist21
 chart.draw(data, options);
 var data = google.visualization.arrayToDataTable([
 ['Predicate type', 'Number of predicates'], 
-['routes', 5],
+['routes', 14],
 ['regions', 0],
 ['sensors', 0],
 ['requires', 0],
@@ -81,7 +81,7 @@ chart.draw(data, options);
 </script></head>
 <body>
 <table border="1">
-<tr><td>Size</td><td width="600">100 nodes</td><td width="600">100 nodes (5 edges)</td></tr>
+<tr><td>Size</td><td width="600">100 nodes</td><td width="600">100 nodes (14 edges)</td></tr>
 <tr><td>Execution time</td><td></td><td>0 seconds</td></tr>
 <tr><td></td><td><div id="hist11"/></td><td><div id="hist12"/></td></tr>
 <tr><td></td><td><div id="hist21"/></td><td><div id="hist22"/></td></tr>
